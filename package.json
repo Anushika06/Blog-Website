@@ -1,0 +1,16 @@
+{
+  "name": "web-dev",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

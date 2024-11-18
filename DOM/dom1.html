@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF - 8" />
+    <meta
+      name="viewport"
+      content="width = device - width, initial - scale = 1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn-1">Say Hello</button>
+
+<script>
+let btn=document.querySelector('#btn-1');
+btn.addEventListener('click', function(){
+//console.log("hello");
+const hellopara=document.createElement('p')
+hellopara.innerText="Hello"
+console.log(hellopara)
+const bodyElement=document.querySelector('body')
+bodyElement.appendChild(hellopara)
+})   
+       
+    </script>
+  </body>
+</html>
+
+<!--some of the mouse eventlisteners: click, dblclick, mouseover, mouseout, mouseenter, mouseleave, mousedown, mouseup-->

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="trailc.css">
+  </head>
+  <body>
+    <div class="box">first</div>
+     <div class="box">second</div>
+     <div class="box">third</div>
+    <script>
+     let a=document.querySelectorAll('.box')
+     /*a[0].innerText=a[0].innerText+" one"
+     a[1].innerText=a[1].innerText+" two"
+     a[2].innerText=a[2].innerText+" three"*/
+
+     let idx=1;
+     for(div of a){
+      div.innerText=`The new value of ${idx}`;
+      idx++;
+     }
+    </script>
+  </body>
+</html>
